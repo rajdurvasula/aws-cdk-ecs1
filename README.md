@@ -2,7 +2,7 @@
 
 This is a CDK TypeScript project to deploy:
 - ECS Instances in a VPC created from IPAM Pool shared by SharedNetwork Account
-- ECS Cluster is deployed with ApplicationLoadBalancedFargate option
+- ECS Cluster is deployed with `ApplicationLoadBalancedFargate` launch type
 
 ## Prerequisites
 - Create 2 Subnets (1 in each AZ)
