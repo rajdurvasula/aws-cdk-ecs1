@@ -1,0 +1,29 @@
+{
+  "AppVpcId": "vpc-0143f69e1a50584ba",
+  "RepositoryName": "testnode",
+  "vpc-provider:account=172489758104:filter.vpc-id=vpc-0143f69e1a50584ba:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0143f69e1a50584ba",
+    "vpcCidrBlock": "10.228.0.0/24",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Isolated",
+        "type": "Isolated",
+        "subnets": [
+          {
+            "subnetId": "subnet-03e118da928363362",
+            "cidr": "10.228.0.0/27",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-044791af430e1e372"
+          },
+          {
+            "subnetId": "subnet-0a0a287794f24bc05",
+            "cidr": "10.228.0.32/27",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-044791af430e1e372"
+          }
+        ]
+      }
+    ]
+  }
+}
